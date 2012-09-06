@@ -3,7 +3,7 @@ using DotNetNuke.Web.Api;
 
 namespace MyServices
 {
-    class RouteMapper : IServiceRouteMapper
+    public class RouteMapper : IServiceRouteMapper
     {
         public void RegisterRoutes(IMapRoute mapRouteManager)
         {

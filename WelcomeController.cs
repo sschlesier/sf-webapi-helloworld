@@ -6,9 +6,10 @@ using DotNetNuke.Web.Api;
 
 namespace MyServices
 {
-    class WelcomeController : DnnApiController
+    public class WelcomeController : DnnApiController
     {
-        [AllowAnonymous]
+        [AllowAnonymous] 
+        [HttpGet]
         public HttpResponseMessage HelloWorld()
         {
             return Request.CreateResponse(HttpStatusCode.OK, "Hello World!");
