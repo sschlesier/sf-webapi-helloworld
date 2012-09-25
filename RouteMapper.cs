@@ -7,7 +7,7 @@ namespace MyServices
     {
         public void RegisterRoutes(IMapRoute mapRouteManager)
         {
-            mapRouteManager.MapHttpRoute("MyServices", "{controller}/{action}", new[] {"MyServices"});
+            mapRouteManager.MapHttpRoute("MyServices", "default", "{controller}/{action}", new[] {"MyServices"});
         }
     }
 }
