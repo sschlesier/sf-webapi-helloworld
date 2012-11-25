@@ -2,7 +2,7 @@
 
 This is the source for my Getting Started with Services Framework WebAPI edition blog post.
 
-Add link here when published...
+You can find it [here](http://www.dotnetnuke.com/Resources/Blogs/EntryId/3500/Getting-Started-with-Services-Framework-WebAPI-Edition.aspx).
 
 ## How do I use this? ##
 
